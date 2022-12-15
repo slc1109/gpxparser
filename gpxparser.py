@@ -102,7 +102,7 @@ elevation.set_xlabel("Distance(m)") #set variable name
 elevation.set_ylabel("GPS Elevation(m)") #set variable name
 elevation.grid()
 
-# ANIMATION/DYNAMIC PLOT
+# ANIMATE PLOT
 for i in range(n_track):
     track.plot(lon_list[i], lat_list[i], 'yo')
 speed.bar(dist_list[i], speed_list[i], 30, color='g', edgecolor='g')
